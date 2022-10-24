@@ -1,11 +1,9 @@
-if(x){
-
+var p = {
+    age: 10
 }
 
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
-}
+var p2 = p
 
+p2.age = 100
 
-
+p2 === p
