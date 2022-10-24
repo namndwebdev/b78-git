@@ -1,9 +1,5 @@
-var p = {
-    age: 10
-}
+var arr = [1,2,3,4]
+arr.push(1)
 
-var p2 = p
-
-p2.age = 100
-
-p2 === p
+// luu y
+arr.length 
